@@ -1,6 +1,10 @@
 ErrorDocument 404 /controller/error.php
-DirectoryIndex Inicio.php
+#DirectoryIndex Inicio.php
 
 php_value max_execution_time 100
 php_value post_max_size 20M
 php_value upload_max_filesize 50M
+
+RewriteEngine on
+RewriteCond %{http_host} ^www\.Diclase\.test[nc]
+RewriteRule ^(.*)$ http://Diclase.test/$1 [r=301,nc]
