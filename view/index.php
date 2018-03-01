@@ -4,7 +4,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <title>Diclase</title>
-    <link rel="shortcut icon" href="model/img/logo/Logo-Diclase.ico">
   </head>
 
   <body>
@@ -26,18 +25,20 @@
               </div>
 
           <div class="column">
-            <div class="cuadro ui basic button">
+            <a href="Educacion">
+              <div class="cuadro ui basic button">
               <h3 >Institucion Educativa</h3>
               <p>
                 <!--<img src="./Homepage - Semantic_files/nan.jpg" class="ui avatar image">--> <b>Escuelas y</b> <b>Liceos,</b> desde <br> publicos hasta privados.
               </p>
             </div>
+          </a>
           </div>
           </div>
-          <div class="center aligned row">
+          <div class="center aligned row" href="">
           <div class="column">
               <div class="cuadro ui basic button">
-                <h3 >Cursos</h3>
+                <h3>Cursos</h3>
                   <p>Cursos y video tutoriales <br> para un mejor desarrollo.</strong></p>
                 </div>
             </div>
