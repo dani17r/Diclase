@@ -12,8 +12,9 @@
         <div class="ui equal width stackable internally celled grid">
 
           <div class="ui centro_inicio">
-            <h1 class="ui header">DICLASE</h1>
-            <h2>Una Plataforma Para Todos.</h2>
+              <img class="ui centered medium image pad" src="model/img/logo/Logo-Diclase-completo.png">
+            <h1 class="ui header rec">Diclase</h1>
+            <h1 class="rec">Una Plataforma Para Todos.</h1>
           </div>
           <div class="center aligned row">
 

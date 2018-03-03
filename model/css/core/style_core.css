@@ -86,7 +86,7 @@ body{
   }
 }
 .centro_conten{
-  margin-top: ;
+  margin-top: 0px;
 }
 .cuadro{
   padding: 5px;
@@ -99,14 +99,19 @@ body{
   width: 100%;
   align-content: center;
   text-align: center;
-  padding: 4rem 0px 4rem 0px;
+  padding: 0.5rem 0px 0rem 0px;
 }
 .centro_vene{
   width: 100%;
   align-content: center;
   text-align: center;
-  padding: 1rem 0px 4rem 0px;
+  padding: 0rem 0px 1rem 0px;
 }
 .posit{
-  padding: 15rem 0px 2rem 0px !important;
+  padding: 14rem 0px 2rem 0px !important;
+}
+.rec{
+   padding: 0px !important;
+   margin: 0px !important;
+
 }
