@@ -46,5 +46,3 @@
 <script src="model/Framework/Semantic-UI-CSS-master/components/video.js"></script>
 <script src="model/Framework/Semantic-UI-CSS-master/components/visibility.js"></script>
 <script src="model/Framework/Semantic-UI-CSS-master/components/visit.js"></script>
-
-<script src="model/js/core/efectos.js"></script>

@@ -13,18 +13,17 @@ include '../model/route/js/route-js.php';
         <div class="header"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
           Direccion Erronea.
         </font></font></div>
-        <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">La direccion que has colocado no existe actualmente, revisa bien.</font></font></p>
+        <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">La dirección que has colocado no existe actualmente, revisa bien.</font></font></p>
       </div>
     </div>
 
 <div class="ui two column centered grid">
 <div class="column">
   <div class="ui negative message">
-    <i class="close icon"></i>
     <div class="header">
-      Puede que tengas un error de ortografia.
+      Puede que tengas un error de ortografía.
     </div>
-    <p>No te preocupes.
-  </p></div>
+    <p>No te preocupes.</p>
+  </div>
 </div>
 </div>

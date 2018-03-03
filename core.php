@@ -14,10 +14,16 @@
   elseif (!isset($_GET['sesion']) && ($mantenimiento == false)){
       include('view/index.php');
   }
-  elseif(isset($_GET['sesion']) && $_GET['sesion']=="educacion"){
-    include('view/a_liceos/index.php');
-  }
   elseif(isset($_GET['sesion']) && $_GET['sesion']=="universidad"){
-    include('view/a_liceos/index.php');
+    include('view/1universidades/index.php');
+  }
+  elseif(isset($_GET['sesion']) && $_GET['sesion']=="educacion"){
+    include('view/2liceos/index.php');
+  }
+  elseif(isset($_GET['sesion']) && $_GET['sesion']=="cursos"){
+    include('view/3cursos/index.php');
+  }
+  elseif(isset($_GET['sesion']) && $_GET['sesion']=="/"){
+    include('(core.php)');
   }
  ?>

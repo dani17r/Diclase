@@ -1,8 +1,8 @@
 Options +FollowSymLinks
 RewriteEngine On
 
-ErrorDocument 404 /controller/error.php
-DirectoryIndex inicio.php
+ErrorDocument 404 /view/error.php
+DirectoryIndex core.php
 
 php_value max_execution_time 100
 php_value post_max_size 20M
@@ -11,5 +11,7 @@ php_value upload_max_filesize 50M
 RewriteCond %{http_host} ^www\.Diclase\.test[nc]
 RewriteRule ^(.*)$ http://Diclase.test/$1 [r=301,nc]
 
-RewriteRule ^Educacion$ inicio.php?sesion=educacion [QSA]
-RewriteRule ^Universidad$ inicio.php?sesion=universidad [QSA]
+RewriteRule ^Educacion$ core.php?sesion=educacion [QSA]
+RewriteRule ^Universidad$ core.php?sesion=universidad [QSA]
+RewriteRule ^Cursos$ core.php?sesion=cursos [QSA]
+RewriteRule ^/$ core.php?sesion=/ [QSA]
