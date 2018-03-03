@@ -11,4 +11,5 @@ php_value upload_max_filesize 50M
 RewriteCond %{http_host} ^www\.Diclase\.test[nc]
 RewriteRule ^(.*)$ http://Diclase.test/$1 [r=301,nc]
 
-RewriteRule ^Educacion$ inicio.php?section=Educacion [QSA]
+RewriteRule ^Educacion$ inicio.php?sesion=educacion [QSA]
+RewriteRule ^Universidad$ inicio.php?sesion=universidad [QSA]

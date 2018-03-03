@@ -18,10 +18,12 @@
           <div class="center aligned row">
 
             <div class="column ">
+              <a href="Universidad">
                 <div class="cuadro ui basic button">
                   <h3 >Universidad</h3>
                     <p>Estudios a distancia para cualquier <br> Universidad <strong>Publica o Privada.</strong></p>
                   </div>
+                </a>
               </div>
 
           <div class="column">
@@ -35,13 +37,16 @@
           </a>
           </div>
           </div>
-          <div class="center aligned row" href="">
+
+          <div class="center aligned row">
           <div class="column">
+            <a href="Cursos">
               <div class="cuadro ui basic button">
                 <h3>Cursos</h3>
                   <p>Cursos y video tutoriales <br> para un mejor desarrollo.</strong></p>
                 </div>
             </div>
+          </a>
         </div>
       </div>
       </div>
